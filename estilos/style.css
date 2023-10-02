@@ -66,12 +66,36 @@ form div.campo{
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0;
 }
 
 div.campo label{
     display: none;
+}
+
+.material-symbols-outlined{
+    color: white;
+   
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+
+}
+
+div.campo input{
+    background:#94cfcd ;
+    font-size: 1em;
+    border-radius: 8px;
+    height: 100%;
+    border: 0;
+    padding: 4px;
+    width: calc(100% - 50px) ;
+    
+}
+
+div.campo input:focus-within{
+    background: white;
 }
 
 form input[type=submit]{
