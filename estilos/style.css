@@ -34,6 +34,8 @@ section#login{
     border-radius: 20px;
     overflow: hidden; /* tudo o que estiver fora da bordar vai ficar escondido */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.451);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease ;
 }
 
 section#login div#imagem{
@@ -49,3 +51,4 @@ section#login div#formulario{
     display: block;
 
 }
+
